@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esona Glow | Hair & Nail Salon</title>
+    <link rel="stylesheet" href="salon.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>Esona Glow</h1>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#booking">Book</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero" id="home">
+        <h2>Beauty Begins Here</h2>
+        <p>Luxury Hair • Nails • Beauty</p>
+        <a href="#booking" class="btn">Book Appointment</a>
+    </div>
+</header>
+
+<section id="services">
+    <h2>Our Services</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <span>💇‍♀️</span>
+            <h3>Hair Styling</h3>
+            <p>Professional cuts, colouring and styling.</p>
+        </div>
+
+        <div class="card">
+            <span>💅</span>
+            <h3>Nail Art</h3>
+            <p>Gel nails, acrylics and custom designs.</p>
+        </div>
+
+        <div class="card">
+            <span>✨</span>
+            <h3>Treatments</h3>
+            <p>Hair repair, spa manicures and luxury care.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="booking">
+
+    <h2>Book Your Appointment</h2>
+
+    <form id="bookingForm">
+
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <input type="email" id="email" placeholder="Email" required>
+
+        <select id="service" required>
+            <option value="">Choose Service</option>
+            <option>Hair Cut</option>
+            <option>Hair Colour</option>
+            <option>Blow Dry</option>
+            <option>Gel Nails</option>
+            <option>Acrylic Nails</option>
+            <option>Nail Art</option>
+        </select>
+
+        <input type="date" id="date" required>
+
+        <input type="time" id="time" required>
+
+        <button type="submit">Confirm Booking</button>
+
+    </form>
+
+    <div id="message"></div>
+
+</section>
+
+<footer id="contact">
+
+<h2>Esona Glow</h2>
+
+<p>Parkies Plaza</p>
+
+<p>Phone: 071 843 2203</p>
+
+<p>Email: esonabeje1@gmail.com</p>
+
+<p>© 2026 Esona Glow</p>
+
+</footer>
+
+<script src="salon.js"></script>
+
+</body>
+</html>
